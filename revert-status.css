@@ -1,0 +1,46 @@
+/**
+ * @name RevertStatus
+ * @author Jazzzny#6861
+ * @version 1.0
+ * @description Reverts the Discord status icons to the solid ones.
+ * @source https://github.com/Jazzzny/discord-addons
+*/
+
+/*Change main icons*/
+rect[class="pointerEvents-2KjWnj"] {
+    mask: url(#svg-mask-status-online);
+}
+
+/*Change mobile icon*/
+rect[mask="url(#svg-mask-status-online-mobile)"][y="17"] {
+    height: 10px;
+    y: 22px
+}
+rect[mask="url(#svg-mask-status-online-mobile)"][y="52"] {
+    height: 16px;
+    y: 60px
+}
+rect[mask="url(#svg-mask-status-online-mobile)"][y="76"] {
+    height: 24px;
+    y: 88px
+}
+foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"] {
+    mask: url(#svg-mask-avatar-status-round-32)
+}
+foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] {
+    mask: url(#svg-mask-avatar-status-round-80)
+}
+foreignObject[mask="url(#svg-mask-avatar-status-mobile-120)"] {
+    mask: url(#svg-mask-avatar-status-round-120)
+}
+
+/*Change status picker icons*/
+foreignObject[mask="url(#svg-mask-status-dnd)"] {
+    mask: url(#svg-mask-status-online)
+}
+foreignObject[mask="url(#svg-mask-status-idle)"] {
+    mask: url(#svg-mask-status-online)
+}
+foreignObject[mask="url(#svg-mask-status-offline)"] {
+    mask: url(#svg-mask-status-online)
+}
