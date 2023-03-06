@@ -8,39 +8,37 @@
 
 /*Change main icons*/
 rect[class="pointerEvents-2KjWnj"] {
-    mask: url(#svg-mask-status-online);
+    mask: url(#svg-mask-status-online) !important;
 }
-
 /*Change mobile icon*/
 rect[mask="url(#svg-mask-status-online-mobile)"][y="17"] {
-    height: 10px;
-    y: 22px
+    height: 10px !important;
+    y: 22px !important
 }
 rect[mask="url(#svg-mask-status-online-mobile)"][y="52"] {
-    height: 16px;
-    y: 60px
+    height: 16px !important;
+    y: 60px !important
 }
 rect[mask="url(#svg-mask-status-online-mobile)"][y="76"] {
-    height: 24px;
-    y: 88px
+    height: 24px !important;
+    y: 88px !important
 }
 foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"] {
-    mask: url(#svg-mask-avatar-status-round-32)
+    mask: url(#svg-mask-avatar-status-round-32) !important
 }
 foreignObject[mask="url(#svg-mask-avatar-status-mobile-80)"] {
-    mask: url(#svg-mask-avatar-status-round-80)
+    mask: url(#svg-mask-avatar-status-round-80) !important
 }
 foreignObject[mask="url(#svg-mask-avatar-status-mobile-120)"] {
-    mask: url(#svg-mask-avatar-status-round-120)
+    mask: url(#svg-mask-avatar-status-round-120) !important
 }
-
 /*Change status picker icons*/
 foreignObject[mask="url(#svg-mask-status-dnd)"] {
-    mask: url(#svg-mask-status-online)
+    mask: url(#svg-mask-status-online) !important
 }
 foreignObject[mask="url(#svg-mask-status-idle)"] {
-    mask: url(#svg-mask-status-online)
+    mask: url(#svg-mask-status-online) !important
 }
 foreignObject[mask="url(#svg-mask-status-offline)"] {
-    mask: url(#svg-mask-status-online)
+    mask: url(#svg-mask-status-online) !important
 }
